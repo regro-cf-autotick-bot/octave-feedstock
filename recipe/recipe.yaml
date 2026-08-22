@@ -87,6 +87,9 @@ requirements:
     - fltk
     - libiconv
     - rapidjson
+    - if: osx
+      then:
+        - fast_float
     - if: linux
       then:
         - libglu
